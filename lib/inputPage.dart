@@ -120,24 +120,27 @@ class _InputPageState extends State<InputPage> {
                           "cm",
                           style: klabelTextStyle,
                         ),
-                        Slider(
-                            value: height,
-                            min: 100,
-                            max: 250,
-                            divisions: 5,
-                            //label: '$height',
-                            label:height.round().toString() ,
 
-                            activeColor: Color(0xFFEB1555),
-                            inactiveColor: Color(0xFF8D8E98),
-                            onChanged: (heightt){
-                              setState(() {
-                                height = heightt;
-                                print(height);
-                              });
-                            })
                       ],
-                    )
+                    ),
+                    Slider(
+                        value: height,
+                        min: 100,
+                        max: 250,
+                        divisions: 5,
+                        //label: '$height',
+                        label:height.round().toString() ,
+
+                        activeColor: Color(0xFFEB1555),
+                        inactiveColor: Color(0xFF8D8E98),
+                        onChanged: (heightt){
+                          setState(() {
+                            height = heightt;
+                            print(height);
+                          });
+                        })
+
+
                   ],
                 ),
               ),
