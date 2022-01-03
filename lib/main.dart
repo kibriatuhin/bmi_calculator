@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'inputPage.dart';
+import 'screens/inputPage.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 void main()=> {

@@ -15,3 +15,20 @@ const kNumberTextStyle = TextStyle(
   fontSize: 50,
   fontWeight: FontWeight.w900,
 );
+const kTitleTextStyle = TextStyle(
+  fontSize: 40,
+  fontWeight: FontWeight.bold
+);
+const kResultTextStyle = TextStyle(
+  fontWeight: FontWeight.bold,
+  color: Color(0xFF24D876),
+  fontSize: 22
+);
+const kBMITextStyle = TextStyle(
+    fontSize: 70,
+    fontWeight: FontWeight.bold
+);
+const kBodyextStyle = TextStyle(
+    fontSize: 19,
+
+);
